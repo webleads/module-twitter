@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+  <backend>
+    <twitter>
+      <item type="error" name="AuthenticationFailed">
+        <translation language="nl"><![CDATA["%1$s" kon niet worden geauthentificeerd met Twitter.]]></translation>
+        <translation language="en"><![CDATA[Failed to authenticated "%1$s" with Twitter.]]></translation>
+      </item>
+      <item type="error" name="MaximumTweetsExceeded">
+        <translation language="nl"><![CDATA[Je kan maximum 200 tweets weergeven.]]></translation>
+        <translation language="en"><![CDATA[There is a maximum of 200 tweets.]]></translation>
+      </item>
+      <item type="error" name="MinimumTweetsExceeded">
+        <translation language="nl"><![CDATA[Je moet minstens 1 tweet weergeven.]]></translation>
+        <translation language="en"><![CDATA[There is a minimum of 1 tweet.]]></translation>
+      </item>
+      <item type="error" name="NoConsumerKey">
+        <translation language="nl"><![CDATA[De consumer key van je applicatie is nog niet ingevuld.]]></translation>
+        <translation language="en"><![CDATA[The consumer key of your application is not filled in yet.]]></translation>
+      </item>
+      <item type="error" name="NoConsumerSecret">
+        <translation language="nl"><![CDATA[De consumer secret van je applicatie is nog niet ingevuld.]]></translation>
+        <translation language="en"><![CDATA[The consumer secret of your application is not filled in yet.]]></translation>
+      </item>
+      <item type="error" name="NumberOfItemsIsRequired">
+        <translation language="nl"><![CDATA[Gelieve het aantal tweets in te vullen.]]></translation>
+        <translation language="en"><![CDATA[Please enter the amount of tweets.]]></translation>
+      </item>
+      <item type="error" name="UsernameIsRequired">
+        <translation language="nl"><![CDATA[Gelieve je gebruikersnaam in te vullen.]]></translation>
+        <translation language="en"><![CDATA[Please enter your username.]]></translation>
+      </item>
+      <item type="error" name="WidgetApprovedBadOauth">
+        <translation language="nl"><![CDATA[Er is een probleem opgetreden bij het goedkeuren van de widget.]]></translation>
+        <translation language="en"><![CDATA[There is a problem to approve your widget.]]></translation>
+      </item>
+      <item type="label" name="Approved">
+        <translation language="nl"><![CDATA[goedgekeurd]]></translation>
+        <translation language="en"><![CDATA[approved]]></translation>
+      </item>
+      <item type="label" name="ConsumerKey">
+        <translation language="nl"><![CDATA[consumer key]]></translation>
+        <translation language="en"><![CDATA[consumer key]]></translation>
+      </item>
+      <item type="label" name="ConsumerSecret">
+        <translation language="nl"><![CDATA[consumer secret]]></translation>
+        <translation language="en"><![CDATA[consumer secret]]></translation>
+      </item>
+      <item type="label" name="EditWidget">
+        <translation language="nl"><![CDATA[widget aanpassen]]></translation>
+        <translation language="en"><![CDATA[edit widget]]></translation>
+      </item>
+      <item type="label" name="LastSyncedOn">
+        <translation language="nl"><![CDATA[laatste update op]]></translation>
+        <translation language="en"><![CDATA[last synced on]]></translation>
+      </item>
+      <item type="label" name="NotApproved">
+        <translation language="nl"><![CDATA[niet goedgekeurd]]></translation>
+        <translation language="en"><![CDATA[not approved]]></translation>
+      </item>
+      <item type="label" name="NumberOfItems">
+        <translation language="nl"><![CDATA[aantal tweets]]></translation>
+        <translation language="en"><![CDATA[number of tweets]]></translation>
+      </item>
+      <item type="label" name="OauthStatus">
+        <translation language="nl"><![CDATA[twitter connectie status]]></translation>
+        <translation language="en"><![CDATA[twitter connection status]]></translation>
+      </item>
+      <item type="label" name="Tag">
+        <translation language="nl"><![CDATA[tag]]></translation>
+        <translation language="en"><![CDATA[tag]]></translation>
+      </item>
+      <item type="label" name="ToApprove">
+        <translation language="nl"><![CDATA[goedkeuren]]></translation>
+        <translation language="en"><![CDATA[approve]]></translation>
+      </item>
+      <item type="label" name="Widgets">
+        <translation language="nl"><![CDATA[widgets]]></translation>
+        <translation language="en"><![CDATA[widgets]]></translation>
+      </item>
+      <item type="message" name="Added">
+        <translation language="nl"><![CDATA[De widget werd toegevoegd.]]></translation>
+        <translation language="en"><![CDATA[The widget was added.]]></translation>
+      </item>
+      <item type="message" name="Approved">
+        <translation language="nl"><![CDATA[De widget heeft nu voldoende rechten.]]></translation>
+        <translation language="en"><![CDATA[The widget has the necessary rights now.]]></translation>
+      </item>
+      <item type="message" name="AuthenticationSuccess">
+        <translation language="nl"><![CDATA["%1$s" succesvol geauthentificeerd met Twitter.]]></translation>
+        <translation language="en"><![CDATA[Successfully authenticated "%1$s" with Twitter.]]></translation>
+      </item>
+      <item type="message" name="ConfirmDelete">
+        <translation language="nl"><![CDATA[Ben je zeker dat je deze widget wil verwijderen?]]></translation>
+        <translation language="en"><![CDATA[Are you sure you want to delete this widget?]]></translation>
+      </item>
+      <item type="message" name="Edited">
+        <translation language="nl"><![CDATA[De widget werd opgeslagen.]]></translation>
+        <translation language="en"><![CDATA[The widget was saved.]]></translation>
+      </item>
+      <item type="message" name="Deleted">
+        <translation language="nl"><![CDATA[De widget werd verwijderd.]]></translation>
+        <translation language="en"><![CDATA[The widget was deleted.]]></translation>
+      </item>
+      <item type="message" name="NoItems">
+        <translation language="nl"><![CDATA[Er zijn geen widgets.]]></translation>
+        <translation language="en"><![CDATA[There are no widgets yet.]]></translation>
+      </item>
+      <item type="message" name="NumberOfItemsHelp">
+        <translation language="nl"><![CDATA[Het aantal tweets die moet worden weergegeven.]]></translation>
+        <translation language="en"><![CDATA[The number of tweets that have to be shown.]]></translation>
+      </item>
+      <item type="message" name="OauthStatusTooltip">
+        <translation language="nl"><![CDATA[Hebben we de toelating om met je Twitter account te connecteren?]]></translation>
+        <translation language="en"><![CDATA[Do we have the authorisation to connect with your Twitter account?]]></translation>
+      </item>
+      <item type="message" name="TagHelp">
+        <translation language="nl"><![CDATA[Filter je tweets door middel van een hashtag. Als je als hashtag "forkcms" gebruikt, dan worden enkel je tweets met #forkcms weergegeven.]]></translation>
+        <translation language="en"><![CDATA[Filter the tweets with a hashtag. If you use the hashtag "forkcms", only your tweets containing #forkcms will be shown.]]></translation>
+      </item>
+      <item type="message" name="TwitterHelp">
+        <translation language="nl">
+          <![CDATA[
+            <p>
+              Registreer een toepassing op <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> om Fork CMS toe te staan te connecteren met je Twitter account.<br />
+              Na het registreren van je toepassing, kan je er de benodige consumer key & secret vinden.<br />
+              Zorg ervoor dat de Callback URL (vb. je website's url): dit markeert je Twitter applicatie als "web app", wat nodig is om de authenticatie te voltooien.
+            </p>
+          ]]>
+        </translation>
+        <translation language="en">
+          <![CDATA[
+            <p>
+              Register an application at <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> to allow Fork CMS to connect with your Twitter account.<br />
+              After registering your application, you should find the required consumer key & secret.<br />
+              Make sure you enter a Callback URL (e.g. your website's url): this marks your Twitter application as "web app", which is required to complete the authentication.
+            </p>
+          ]]>
+        </translation>
+      </item>
+      <item type="message" name="UsernameHelp">
+        <translation language="nl"><![CDATA[Je Twitter gebruikersnaam]]></translation>
+        <translation language="en"><![CDATA[Your Twitter username]]></translation>
+      </item>
+    </twitter>
+    <core>
+      <item type="label" name="Twitter">
+        <translation language="nl"><![CDATA[twitter]]></translation>
+        <translation language="en"><![CDATA[twitter]]></translation>
+      </item>
+    </core>
+  </backend>
+  <frontend>
+    <core>
+      <item type="label" name="RecentTweets">
+        <translation language="nl"><![CDATA[recente tweets]]></translation>
+        <translation language="en"><![CDATA[recent tweets]]></translation>
+      </item>
+    </core>
+  </frontend>
+</locale>
