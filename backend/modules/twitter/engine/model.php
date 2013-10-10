@@ -210,7 +210,7 @@ class BackendTwitterModel
 	 * @param array $item Widget data.
 	 * @return int
 	 */
-	public static function insert(array $item)
+	public static function insert(array $item, $cache=true)
 	{
 		// get db
 		$db = BackendModel::getContainer()->get('database');
@@ -264,11 +264,14 @@ class BackendTwitterModel
 			array($extra['id'], $extra['module'], $extra['type'], $extra['action'])
 		);
 
-		// update twitter statuses cache
-		BackendTwitterHelper::updateStatusCache();
+		if($cache)
+		{
+			// update twitter statuses cache
+			BackendTwitterHelper::updateStatusCache();
 
-		// update twitter users cache
-		BackendTwitterHelper::updateUsersCache();
+			// update twitter users cache
+			BackendTwitterHelper::updateUsersCache();
+		}
 
 		// return widget id
 		return $item['id'];

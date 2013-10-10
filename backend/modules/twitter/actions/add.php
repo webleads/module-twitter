@@ -94,7 +94,7 @@ class BackendTwitterAdd extends BackendBaseActionAdd
 				$item['number_of_items'] = $ddmNumberOfItems->getValue();
 
 				// insert the item
-				$widgetId = BackendTwitterModel::insert($item);
+				$widgetId = BackendTwitterModel::insert($item, false);
 
 				// trigger event
 				BackendModel::triggerEvent($this->getModule(), 'after_add', array('item' => $item));

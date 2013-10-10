@@ -52,7 +52,14 @@ class BackendTwitterHelper
 			$consumerSecret = BackendModel::getModuleSetting('twitter', 'consumer_secret');
 
 			// create Twitter object
-			self::$twitter = new Twitter($consumerKey, $consumerSecret);
+			try
+			{
+				self::$twitter = new TijsVerkoyen\Twitter\Twitter($consumerKey, $consumerSecret);
+			}
+			catch(Exception $e) 
+			{
+				echo $e->getMessage();
+			}
 		}
 
 		// cough instance up
@@ -86,7 +93,7 @@ class BackendTwitterHelper
 				try
 				{
 					// get the tweets
-					$statuses = BackendTwitterHelper::getTwitterInstance()->statusesUserTimeline($widget['twitter_id'], null, null, null, $numberOfItems, null, null, true);
+					$statuses = BackendTwitterHelper::getTwitterInstance()->statusesUserTimeline($widget['twitter_id'], null, null, $numberOfItems, null, null, null, true);
 				}
 
 				// gracefully handle exceptions
