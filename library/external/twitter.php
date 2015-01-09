@@ -1,4 +1,5 @@
 <?php
+
 namespace TijsVerkoyen\Twitter;
 
 /**
@@ -2990,10 +2991,12 @@ class Twitter
      */
     public function oAuthAuthorize($token=null)
     {
-    	if(!$token) $token = $this->getOAuthToken();
+        if(!$token) $token = $this->getOAuthToken();
 
         header('Location: ' . self::SECURE_API_URL .
                '/oauth/authorize?oauth_token=' . $token);
+
+        exit;
     }
 
     /**
