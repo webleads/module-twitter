@@ -4,6 +4,13 @@
 
 Visit the [Fork CMS knowledge base](http://fork-cms.com/knowledge-base) to learn how to install a module. To download the zip-package go to the [extension page](http://www.fork-cms.com/extensions/detail/twitter) of the module on fork-cms.com.
 
+## Updating
+
+Update from 2.0.0 to 2.1.0? Just apply this SQL update to your database and your done.
+
+```
+ALTER TABLE `twitter_users` CHANGE `twitter_id` `twitter_id` BIGINT(20) UNSIGNED NULL DEFAULT NULL;
+```
 
 ## Contributing
 

@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `twitter_tweets` (
 
 CREATE TABLE IF NOT EXISTS `twitter_users` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
- `twitter_id` int(11) DEFAULT NULL,
+ `twitter_id` bigint(20) unsigned DEFAULT NULL,
  `username` varchar(50) NOT NULL,
  `name` varchar(255) DEFAULT NULL,
  `location` varchar(255) DEFAULT NULL,
